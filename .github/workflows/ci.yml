@@ -1,0 +1,32 @@
+name: WordPress Plugin CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Setup PHP
+      uses: shivammathur/setup-php@v2
+      with:
+        php-version: '7.4'
+        
+    - name: Setup WordPress
+      run: |
+        bash bin/install-wp-tests.sh wordpress_test root '' localhost latest
+        
+    - name: Run PHPCS
+      run: |
+        composer install
+        ./vendor/bin/phpcs --standard=WordPress .
+        
+    - name: Run PHPUnit
+      run: |
+        ./vendor/bin/phpunit

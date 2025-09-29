@@ -1,0 +1,48 @@
+LICENCIA NGSI WOO CAROUSEL
+=============================
+
+Autor: Nelson Gil Olguín
+Web: https://nelsongil.com
+Email: contacto@nelsongil.com
+
+TÉRMINOS DE LICENCIA FREEWARE
+==============================
+
+1. USO PERSONAL GRATUITO
+   ----------------------
+   Este plugin está disponible de forma gratuita para uso personal en sitios web individuales.
+
+2. RESTRICCIONES COMERCIALES
+   ---------------------------
+   Si deseas incluir este plugin en:
+   - Paquetes de software comerciales
+   - Servicios de hosting o desarrollo web
+   - Cualquier producto o servicio comercial
+   - Distribución masiva
+
+   DEBES contactar con el autor para obtener una licencia comercial.
+
+3. PROHIBICIONES
+   --------------
+   - No puedes redistribuir este plugin sin autorización
+   - No puedes eliminar o modificar los créditos del autor
+   - No puedes usar este plugin en proyectos comerciales sin licencia
+   - No puedes revender este plugin como propio
+
+4. RESPONSABILIDAD
+   ----------------
+   Este plugin se proporciona "tal como está" sin garantías.
+   El autor no se hace responsable de daños directos o indirectos.
+
+5. CONTACTO PARA LICENCIA COMERCIAL
+   ---------------------------------
+   Para obtener una licencia comercial, contacta con:
+   - Email: contacto@nelsongil.com
+   - Web: https://nelsongil.com
+   - Asunto: "Licencia Comercial NGSI Woo Carousel"
+
+6. ACEPTACIÓN
+   -----------
+   Al usar este plugin, aceptas estos términos de licencia.
+
+© 2024 Nelson Gil Olguín. Todos los derechos reservados.
