@@ -298,3 +298,50 @@
 .ngsi-author-info a:hover {
     text-decoration: underline;
 }
+
+/* Header del plugin con imagen */
+.ngsi-plugin-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.ngsi-plugin-icon {
+    width: 64px;
+    height: 64px;
+    margin-right: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.ngsi-plugin-info {
+    flex: 1;
+}
+
+.ngsi-plugin-info h1 {
+    color: #ffffff;
+    margin: 0 0 10px 0;
+    font-size: 28px;
+    font-weight: 600;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+.ngsi-plugin-header .ngsi-author-info {
+    background: rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,255,255,0.2);
+    margin: 0;
+}
+
+.ngsi-plugin-header .ngsi-author-info p {
+    color: #ffffff;
+    font-size: 13px;
+}
+
+.ngsi-plugin-header .ngsi-author-info a {
+    color: #ffd700;
+    font-weight: 500;
+}

@@ -52,9 +52,14 @@ class NGSI_Carousel_Admin {
     public function admin_page() {
         ?>
         <div class="wrap">
-            <h1>🚀 NGSI Carruseles de Productos</h1>
-            <div class="ngsi-author-info">
-                <p><strong>Autor:</strong> Nelson Gil Olguín | <strong>Web:</strong> <a href="https://nelsongil.com" target="_blank">nelsongil.com</a> | <strong>Licencia:</strong> Freeware (Uso Personal)</p>
+            <div class="ngsi-plugin-header">
+                <img src="<?php echo plugin_dir_url( dirname( __FILE__ ) ) . 'assets/media/icon.svg'; ?>" alt="NGSI Woo Carousel" class="ngsi-plugin-icon">
+                <div class="ngsi-plugin-info">
+                    <h1>🚀 NGSI Carruseles de Productos</h1>
+                    <div class="ngsi-author-info">
+                        <p><strong>Autor:</strong> Nelson Gil Olguín | <strong>Web:</strong> <a href="https://nelsongil.com" target="_blank">nelsongil.com</a> | <strong>Licencia:</strong> Freeware (Uso Personal)</p>
+                    </div>
+                </div>
             </div>
             
             <div class="ngsi-admin-container">

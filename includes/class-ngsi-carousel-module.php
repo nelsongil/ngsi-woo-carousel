@@ -265,8 +265,11 @@ class NGSI_Carousel_Module extends ET_Builder_Module {
     
         $query = new WP_Query( $args );
     
+        // Calcular productos visibles por defecto
+        $visible_products = min( $products_per_page, 4 );
+        
         // Construir HTML usando sprintf en lugar de echo
-        $html = '<div class="ngsi-carousel swiper">';
+        $html = '<div class="ngsi-carousel swiper" data-visible="' . esc_attr( $visible_products ) . '">';
         
         // Título del carrusel dentro del DIV
         $html .= '<div class="ngsi-carousel-title">';

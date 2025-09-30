@@ -1,5 +1,9 @@
 # NGSI Woo Carousel
 
+<div align="center">
+  <img src="assets/media/banner.svg" alt="NGSI Woo Carousel Banner" width="800">
+</div>
+
 **Carrusel de productos WooCommerce con shortcode, interfaz visual de administración y personalización completa de colores**
 
 [![WordPress](https://img.shields.io/badge/WordPress-6.0%2B-blue.svg)](https://wordpress.org/)

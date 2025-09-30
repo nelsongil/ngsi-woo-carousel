@@ -16,6 +16,11 @@
  * Network: false
  * GitHub Plugin URI: [TU-USUARIO-GITHUB]/ngsi-woo-carousel
  * GitHub Branch: main
+ * 
+ * @package NGSI_Woo_Carousel
+ * @author Nelson Gil Olguín
+ * @version 1.0.0
+ * @license Freeware (Personal Use)
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -26,6 +31,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 require_once plugin_dir_path( __FILE__ ) . 'includes/class-ngsi-carousel-shortcode.php';
 require_once plugin_dir_path( __FILE__ ) . 'includes/class-ngsi-carousel-admin.php';
 require_once plugin_dir_path( __FILE__ ) . 'includes/class-ngsi-carousel-updater.php';
+require_once plugin_dir_path( __FILE__ ) . 'includes/class-ngsi-carousel-images.php';
 
 // Carga estilos y scripts
 function ngsi_woo_carousel_assets() {
