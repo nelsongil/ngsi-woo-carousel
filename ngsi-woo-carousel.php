@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: NGSI Woo Carousel
- * Plugin URI: https://github.com/[TU-USUARIO-GITHUB]/ngsi-woo-carousel
+ * Plugin URI: https://github.com/nelsongil/ngsi-woo-carousel
  * Description: Carrusel de productos WooCommerce con shortcode, interfaz visual de administración y personalización completa de colores
  * Version: 1.0.0
  * Author: Nelson Gil Olguín
@@ -14,8 +14,8 @@
  * Tested up to: 6.8
  * Requires PHP: 7.4
  * Network: false
- * GitHub Plugin URI: [TU-USUARIO-GITHUB]/ngsi-woo-carousel
- * GitHub Branch: main
+ * GitHub Plugin URI: nelsongil/ngsi-woo-carousel
+ * GitHub Branch: master
  * 
  * @package NGSI_Woo_Carousel
  * @author Nelson Gil Olguín
@@ -26,6 +26,13 @@
 if ( ! defined( 'ABSPATH' ) ) {
     exit; // Seguridad: evita acceso directo
 }
+
+// Definir constantes del plugin
+define( 'NGSI_WOO_CAROUSEL_VERSION', '1.0.0' );
+define( 'NGSI_WOO_CAROUSEL_FILE', __FILE__ );
+define( 'NGSI_WOO_CAROUSEL_PATH', plugin_dir_path( __FILE__ ) );
+define( 'NGSI_WOO_CAROUSEL_URL', plugin_dir_url( __FILE__ ) );
+define( 'NGSI_WOO_CAROUSEL_BASENAME', plugin_basename( __FILE__ ) );
 
 // Carga archivos necesarios
 require_once plugin_dir_path( __FILE__ ) . 'includes/class-ngsi-carousel-shortcode.php';
